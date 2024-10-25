@@ -1,0 +1,52 @@
+.img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.section {
+    width: 800px;
+    height: 700px;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+.name {
+text-align: center;
+font-size: 14px;
+font-weight: 800;
+}
+
+.tag {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.location {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header {
+    background-color: rgb(232, 224, 214);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    height: 130px;
+    background-color: black;
+    color: white;
+}
+
+.item {
+display: flex;
+flex-direction: column;
+}
