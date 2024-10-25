@@ -1,3 +1,4 @@
+
 import userData from "../src/userData.json";
 import Profile from "./components/Profile/Profile";
 import FriendList from "./components/FriendList/FriendList"
