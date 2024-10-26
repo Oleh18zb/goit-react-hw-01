@@ -1,0 +1,23 @@
+.card {
+}
+
+.friendList {
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.img {
+display: block;
+margin: 0 auto;
+}
+
+.name {
+font-size: 14px;
+font-weight: 400;
+}
+
+.online {
+
+}

@@ -1,9 +1,10 @@
 
-import userData from "../src/userData.json";
+import userData from "../src/components/Profile/userData.json";
 import Profile from "./components/Profile/Profile";
 import FriendList from "./components/FriendList/FriendList"
 import Transaction from "./components/Transaction/Transactions"
-import "../src/index.css"
+import "./index.css"
+import friends from './components/FriendList/friends.json'
 
 
 const App = () => {
@@ -16,7 +17,8 @@ location={userData.location}
 image={userData.avatar}
 stats={userData.stats}
 />
-      <FriendList />
+      <FriendList friends={friends} />
+      
       <Transaction />
     </div>
   );
